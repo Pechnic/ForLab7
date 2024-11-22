@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<title>Основная информация</title>
+	<link rel="stylesheet" href="style.css">
+    <link	
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"	
+        rel="stylesheet"	
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"	
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <div>
+        <ul class="navbar-nav"><li class="nav-item"><a class="nav-link" href="info.html">Основная информация</a></li>
+          <li class="nav-item"><a class="nav-link" href="films.html">Список фильмов</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="sm1">
+<div class="sm2">
+      <nav class="bg-light" style="height: 100%; width: 10%">
+        <h4>Боковое меню</h4>
+        <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="#carous">Карусель</a></li>
+        <li class="nav-item"><a class="nav-link" href="#filmCards">Карточки</a></li>
+        <li class="nav-item"><a class="nav-link" href="#information">Информация</a></li>
+        </ul>
+      </nav>
+</div>
+
+<div class="forContent">
+<div id="carous" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carous" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carous" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carous" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="photo1.jpg" alt="1" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="photo2.jpg" alt="2" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="photo3.jpg" alt="3" class="d-block" style="width:100%">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carous" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carous" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+</div>
+
+<div class="sm1" id="filmCards">
+<div class="card" style="width: 300px">
+    <img src="card1.jpg" style="width: 100%;">
+    <div class="card-body">
+        <h4 class="card-title">Семь</h4>
+        <p class="card-text">Детектив Уильям Сомерсет — ветеран уголовного розыска, мечтающий уйти на пенсию и уехать подальше от города и его грешных обитателей. 
+            За семь дней до пенсии на Сомерсета сваливаются две неприятности: молодой напарник Миллс и особо изощренное убийство. 
+            Острый ум опытного следователя сразу определяет, что за этим преступлением, скорее всего, последуют другие.</p>
+            <a href="https://www.kinopoisk.ru/film/377/">Кинопоиск</a>
+    </div>
+</div>
+
+<div class="card" style="width: 300px">
+    <img src="card2.jpg" style="width: 100%;">
+    <div class="card-body">
+        <h4 class="card-title">Побег из Шоушенка</h4>
+        <p class="card-text">Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. 
+            Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. 
+            Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и к охранникам, добиваясь их особого к себе расположения.</p>
+            <a href="https://www.kinopoisk.ru/film/326/">Кинопоиск</a>
+    </div>
+</div>
+
+<div class="card" style="width: 300px">
+    <img src="card3.jpg" style="width: 100%;">
+    <div class="card-body">
+        <h4 class="card-title">Темный рыцарь</h4>
+        <p class="card-text">Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы Готэма от преступности.
+             Сотрудничество оказывается эффективным, но скоро они обнаружат себя посреди хаоса, развязанного восходящим криминальным гением, 
+             известным напуганным горожанам под именем Джокер.</p>
+            <a href="https://www.kinopoisk.ru/film/111543/">Кинопоиск</a>
+    </div>
+</div>
+</div>
+
+<div class="forColapse">
+    <div class="forBtn">
+    <button id="information" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#colapseText">Информация об актере</button>
+    </div>
+
+    <div id="colapseText" class="collapse">
+        Морган Фримен родился 1 июня 1937 года в Мемфисе (штат Теннесси). Его родителями были Мейми Эдна (урождённая Ревер; 1912—2000), 
+        уборщица, и Морган Портфилд Фримен, парикмахер (умер в 1961 году от цирроза печени). Семья Фрименов часто переезжала, 
+        они жили в Гринвуде, штат Миссисипи, Гэри, штат Индиана и наконец остановились в Чикаго, штат Иллинойс. 
+        На сцене Морган дебютировал в 8 лет, сыграв главную роль в школьном спектакле.
+        К 12 годам он уже принимал участие в радиошоу в Нашвилле, штат Теннесси. Когда Фримену было 16 лет, он чуть не умер от пневмонии. 
+        В 1955 году он окончил Greenwood High, но, отказавшись от частичной стипендии в государственном университете Джексона, 
+        предпочёл службу механиком в ВВС США. Военную службу проходил с 1955 по 1959 год, награждён медалью за безупречную службу.
+
+        Морган Фримен четырежды был женат, у него два сына и две дочери:
+
+        сын Альфонсо Фримен (1959 года рождения)
+        сын Сайфулай Фримен (1960 года рождения)
+        дочь Дина Фримен (дочь Джанетт Эдэйр Брэдшоу от предыдущего брака. Морган удочерил её)
+        дочь Моргана Фримен (1971 года рождения), родилась в браке с Джанетт.
+    </div>
+
+</div>
+    
+</div>
+</div>
+</body>
+</html>

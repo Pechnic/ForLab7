@@ -1,0 +1,46 @@
+body 
+{
+    background: rgb(238, 238, 238);
+}
+
+.sm2 
+{
+    display: flex;
+    width: 10%;
+    align-items: stretch;
+    flex-direction: column;
+}
+  
+.sm1 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.forContent
+{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.forColapse
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forBtn
+{
+    display: flex;
+    height: 60px;
+    width: 180px;
+}
+
+.forHeading
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
